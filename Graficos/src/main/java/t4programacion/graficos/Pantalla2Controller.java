@@ -27,7 +27,7 @@ public class Pantalla2Controller {
 
         Calzado calzado = new Calzado(tipo_calzado, talla_calzado, presio_calzado);
 
-        System.out.println("Calzado creado " + calzado.getTipo_calzado());
+        System.out.println("Calzado creado: " + calzado.getTipo_calzado() + ", talla: " + calzado.getTalla() + ", precio: " + calzado.getPresio() + "€.");
 
         tipoCalzado.clear();
         talla.clear();
